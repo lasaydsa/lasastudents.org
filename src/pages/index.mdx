@@ -1,0 +1,69 @@
+---
+layout: ../layouts/Layout.astro
+---
+import Coalition from "../components/Coalition.svelte"
+import Candidate from "../components/Candidate.svelte"
+
+<hgroup>
+
+# STUDENTS UNITED
+
+Building a progressive, democratic, and representative <br/>LASA that **puts students first**.
+
+We're forming a union to collectively bargain over working conditions and we need your support, if you're a student at LASA, [please sign your union authorization card today.](https://tally.so/r/mRJyDQ)
+
+To get involved in the effort, please join us at our meetings every Tuesday in G104 (DiGioia) at lunch, we'd love to see you there.
+
+</hgroup>
+
+<section>
+
+## Our platform
+
+We believe LASA is **actively harming our students and teachers** through **willful negligence** around workloads, mental health care, and stress levels.
+
+This is supported through the **college rat race** and a **grades-based social hierarchy** encouraged by the vicious feedback loop of parents and administration.
+
+Teachers are then expected to **work many hours on weekends and nights** to grade work ASAP to **maintain the social hierarchy.**
+
+**This must end**, and we must have a community school that **puts students first** with a **union culture.**
+
+We believe that **students** are capable of **building power** through **organizing students, community leaders and parents.**
+
+We believe that **strong, independent democratic institutions** are critical to building student power.
+
+We believe that we can build a **healthier, less stressful and safer work environment** through **collective bargaining with administrators.**
+
+</section>
+
+<section>
+  
+  ## Student Council slate
+  
+  We're running a progressive slate of democratic reformers for student council to turn it into a democratic institution working for students. 
+  
+  If you'd like to seek our endorsement, please contact [us@lasastudents.org](mailto:us@lasastudents.org)
+  
+  <Candidate name="Reese Armstrong" title="Senior President" src="/reese.png">
+    <p>Reese is a tireless advocate for students’ health & wellbeing and an organizer for working class politics throughout Austin.</p>
+  </Candidate>
+</section>
+
+<section>
+
+## Meet the coalition
+
+The graphic below represents all the current signatories and you can tap to visit their websites.
+
+If your organization would like to join the coalition, please contact [us@lasastudents.org](mailto:us@lasastudents.org).
+
+<Coalition client:only="svelte" data={[
+  {
+    name: "LASA YDSA",
+    website: "https://lasaydsa.org",
+    image: "https://lasaydsa.org/favicon.png",
+    value: 1,
+  }
+]} width="200"></Coalition>
+
+</section>
